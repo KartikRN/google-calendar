@@ -7,7 +7,7 @@ from google_apis_oauth import InvalidLoginException
 # to allow htttp calls
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 # redirect link for google
-REDIRECT_URI = 'http://localhost:8000/rest/v1/calender/redirect'
+REDIRECT_URI = 'http://localhost:8000/rest/v1/calendar/redirect'
 # required scopes
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 JSON_FILEPATH = os.path.join(os.getcwd(), 'token.json')
